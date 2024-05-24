@@ -12,7 +12,7 @@ while contador<=5:
     contador+=1
     print(f"la suma es: {suma}")
 
-        #Ejemplo 3 crear un programa que solicite ubn numero y apartir de este numero genere e imprima la tabla de multiplicar correspondiente
+        #Ejemplo 3 crear un programa que solicite un numero y apartir de este numero genere e imprima la tabla de multiplicar correspondiente
 
 numero=int (input("ingrese un numero: "))
 
