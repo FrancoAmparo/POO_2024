@@ -16,3 +16,4 @@ for i in range(1, 16):
 
 print(f"Total de alumnos que aprobaron: {aprobados}")
 print(f"Total de alumnos que no aprobaron: {no_aprobados}")
+print( )
