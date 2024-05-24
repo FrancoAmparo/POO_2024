@@ -28,4 +28,4 @@ print("\n")
 print('Mi nombre es'+nombre+'estoy en la especialidad'+especialidad+' y estudio la carrera de'+carrera)
 
 print("\n")
-print("" )
+print()

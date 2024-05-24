@@ -17,6 +17,7 @@ while num <= 60:
 for num in range(1, 61):
     cuadrado = num * num
     print(f"El cuadrado de {num} es {cuadrado}")
+    print()
 
 
 

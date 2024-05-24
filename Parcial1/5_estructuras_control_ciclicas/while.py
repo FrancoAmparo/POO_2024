@@ -23,3 +23,4 @@ while i<=10:
      i+=1
      print(f"{numero} X {i} = {multi}")
      i+=1
+print()

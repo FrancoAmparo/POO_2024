@@ -13,4 +13,4 @@ print("Tipo de dato de 'pais':", type(pais))
 print("Continente:", continente)
 print("Tipo de dato de 'continente':", type(continente))
 
-print()
+print( )

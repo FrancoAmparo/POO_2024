@@ -18,4 +18,5 @@ else:
     print(f"Todos los números entre {num1} y {num2} son:")
     for num in range(num1 + 1, num2):
         print(num)
+        print()
 

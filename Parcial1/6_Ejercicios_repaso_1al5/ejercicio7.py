@@ -17,3 +17,4 @@ else:
     for num in range(num1 + 1, num2):
         if num % 2 != 0:
             print(num)
+print()
