@@ -24,8 +24,8 @@ while True:
     if otra_captura != 'si':
         break
 if otra_captura!= "si":
-    i=1
-    i+=-1
+    i=0
+   
     total_sueldo=0
     print(f"\nTrabajador {i}:")
     print(f"Nombre: {trabajador['nombre']}")
@@ -33,7 +33,7 @@ if otra_captura!= "si":
     print(f"Sueldo mensual: {trabajador['sueldo_mensual']}")
     print(f"Categoría: {trabajador['categoria']}")
     total_sueldo += trabajador['sueldo_mensual']
-
+    i+=-1
     print(f"\nTotal de trabajadores capturados: {i}")
     print(f"Total de sueldos mensuales: {total_sueldo:}")
     print()
