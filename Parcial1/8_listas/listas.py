@@ -38,7 +38,28 @@ i=0
 for i in palabras:
     if i==palabra_buscar:
         print(f"se encontro la palabra a buscar en la posicion:  {palabras.index}")
-else:
+
+
+#Ejemplo 3 agregar y elimiinar elementos d euna lista
+#os.system("clear")
+
+numeros =[23,34,23]
+print(numeros)
+
+#Agregar un elemento
+numeros.append(100)
+print(numeros)
+numeros.insert(3,200)
+print(numeros)
+
+#Eliminar un elemento 
+numeros.remove(100) #Indicar el elemto a borrar 
+print(numeros)
+numeros.pop(2)#Indicar la posicion de el elemnto a borrar 
+print(numeros)
+
+
+
 
 
 
