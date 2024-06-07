@@ -81,6 +81,9 @@ print(f(agenda.index(i)+1),-(i))
 
 
 
+
+
+
 # #Ejemplo 3 agregar y elimiinar elementos de una lista
 # #os.system("clear")
 
