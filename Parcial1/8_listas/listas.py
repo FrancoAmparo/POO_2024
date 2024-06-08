@@ -59,15 +59,15 @@ son colecciones o conjunto de datos/valores bajo un mismo nombre, para acceder a
 
 
 #4_Crear una lista multilinea (matriz ) para agregar los nombres y numeros telefonicos 
-agenda=
-("carlos", 6181234567,
-leo=, 6671234573,
-"sebastia", 6181231234,
-"pedro", 618113334455
-)
-print(agenda)
-for i in agenda:
-print(f(agenda.index(i)+1),-(i))
+# agenda=
+# ("carlos", 6181234567,
+# leo=, 6671234573,
+# "sebastia", 6181231234,
+# "pedro", 618113334455
+# )
+# print(agenda)
+# for i in agenda:
+# print(f(agenda.index(i)+1),-(i))
 
 
 #5_Crear un programa que permita gestionar (administrar) pelicula, coloca un menu de opciones
@@ -75,6 +75,49 @@ print(f(agenda.index(i)+1),-(i))
 #NOTAS:
 #1_utiliza funciones y mandar llamar desde otro archivo
 #2_utilizar listas para almacenar los nombres de peliculas
+
+from admin_peliculas import agregar_pelicula, remover_pelicula, consultar_peliculas, actualizar_pelicula, limpiar_pantalla, pausar
+
+def menu():
+    while True:
+        limpiar_pantalla()
+        print("Gestión de Películas")
+        print("1. Agregar Película")
+        print("2. Remover Película")
+        print("3. Consultar Películas")
+        print("4. Actualizar Película")
+        print("5. Salir")
+        opcion = input("Selecciona una opción: ")
+
+        if opcion == '1':
+            limpiar_pantalla()
+            nombre = input("Ingrese el nombre de la película: ")
+            agregar_pelicula(nombre)
+            pausar()
+        elif opcion == '2':
+            limpiar_pantalla()
+            nombre = input("Ingrese el nombre de la película a remover: ")
+            remover_pelicula(nombre)
+            pausar()
+        elif opcion == '3':
+            limpiar_pantalla()
+            consultar_peliculas()
+            pausar()
+        elif opcion == '4':
+            limpiar_pantalla()
+            viejo_nombre = input("Ingrese el nombre de la película a actualizar: ")
+            nuevo_nombre = input("Ingrese el nuevo nombre de la película: ")
+            actualizar_pelicula(viejo_nombre, nuevo_nombre)
+            pausar()
+        elif opcion == '5':
+            print("Saliendo del sistema...")
+            break
+        else:
+            print("Opción no válida.")
+            pausar()
+
+if __name__ == "__main__":
+    menu()
 
 
 
