@@ -76,7 +76,7 @@ son colecciones o conjunto de datos/valores bajo un mismo nombre, para acceder a
 #1_utiliza funciones y mandar llamar desde otro archivo
 #2_utilizar listas para almacenar los nombres de peliculas
 
-from admin_peliculas import agregar_pelicula, remover_pelicula, consultar_peliculas, actualizar_pelicula, limpiar_pantalla, pausar
+from calculadora_basica import agregar_pelicula, remover_pelicula, consultar_peliculas, actualizar_pelicula, limpiar_pantalla, pausar
 
 def menu():
     while True:
