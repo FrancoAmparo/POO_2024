@@ -17,7 +17,7 @@ alumnos={
     "semestres":11,
     "duracion":3.8
 }
-
+print()
 print(alumnos)
 
 print(alumnos["nombre"])

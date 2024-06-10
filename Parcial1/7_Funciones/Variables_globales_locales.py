@@ -12,7 +12,7 @@ def resta(a, b):
 
 suma(5, 3)
 resta(5, 3)
-print()
+
 print(f"Resultado global fuera de las funciones: {resultado_global}")
 
 resultado_global = 0

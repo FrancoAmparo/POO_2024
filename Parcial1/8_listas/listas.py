@@ -144,7 +144,7 @@ if __name__ == "__main__":
 # print(numeros)
 # numeros.pop(2)#Indicar la posicion de el elemnto a borrar 
 # print(numeros)
-
+print()
 
 
 
