@@ -65,3 +65,4 @@ except ValueError:
     print("introduce un número entero válido.")
 except:
     print("Error al buscar el numero.")
+    print()

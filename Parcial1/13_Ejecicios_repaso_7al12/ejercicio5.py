@@ -50,3 +50,4 @@ lista, diccionario = crear_lista_y_diccionario()
 
 if lista and diccionario:
     imprimir_informacion(lista, diccionario)
+    print()

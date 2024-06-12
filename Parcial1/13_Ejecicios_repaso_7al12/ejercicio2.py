@@ -15,3 +15,4 @@ else:
 
 finally:
     print("Proceso completado.")
+print()

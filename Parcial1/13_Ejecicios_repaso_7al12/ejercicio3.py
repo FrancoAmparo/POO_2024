@@ -27,3 +27,4 @@ finally:
             print(it.upper())
     else:
         print("La lista sigue vacía.")
+print()
