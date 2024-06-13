@@ -27,6 +27,5 @@ print("DIVISION")
 division=0
 division=num/numero
 print("la division de los numeros es: ",division)
-print()
 
 

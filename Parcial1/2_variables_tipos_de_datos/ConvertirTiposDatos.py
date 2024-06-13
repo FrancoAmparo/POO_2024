@@ -38,4 +38,3 @@ suma=n1+n2
 print(f"la suma es: {suma}")
 print("la suma es: "+str(suma))
 
-print()

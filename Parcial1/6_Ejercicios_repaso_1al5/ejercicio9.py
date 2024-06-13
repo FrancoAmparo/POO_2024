@@ -10,4 +10,4 @@ while True:
         break 
     
     print("Número ingresado:", numero)
-    print()
+   

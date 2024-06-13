@@ -36,4 +36,4 @@ if otra_captura!= "si":
     i+=-1
     print(f"\nTotal de trabajadores capturados: {i}")
     print(f"Total de sueldos mensuales: {total_sueldo:}")
-    print()
+   

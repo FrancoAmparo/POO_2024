@@ -6,4 +6,3 @@ Estatura=input("Estatura")
 
 print(f"\t , ::: DATOS DEL ALUMNO::::.  \n Alumno: 
       {nombre}\n Edad: {Edad}\n Estatura: {Estatura}")
-print()

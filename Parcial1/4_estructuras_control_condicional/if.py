@@ -47,4 +47,4 @@ elif color=="azul":
      print("soy el color negro ")
 else:
       print("no soy niguno de los colores anteriores")
-      print()
+      
